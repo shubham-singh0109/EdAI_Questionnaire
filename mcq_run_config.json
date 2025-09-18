@@ -1,0 +1,8 @@
+{
+  "model": "fallback-local",
+  "seed": 11,
+  "n_per_chunk": 2,
+  "chunk_tokens": 250,
+  "overlap_tokens": 50,
+  "document_used": "/Users/jisusingh/Downloads/Assignment_Encando/Documents/notes.pdf"
+}
