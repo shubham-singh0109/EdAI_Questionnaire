@@ -24,8 +24,6 @@ It supports both **PDF** and **TXT** inputs, chunks the text, and outputs cleane
   - `pandas` (analysis & manipulation)
   - `Counter` (counting utilities)
 
----
-
 ## Requirements
 - Python 3.9+
 - Install dependencies:
