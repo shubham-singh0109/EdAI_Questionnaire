@@ -3,8 +3,6 @@
 This project generates **Multiple Choice Questions (MCQs)** from lecture transcripts and notes using the **Google Gemini API**.  
 It supports both **PDF** and **TXT** inputs, chunks the text, and outputs cleaned MCQs in CSV/JSONL/HTML formats.
 
----
-
 ## Features
 - Reads input from:
   - `notes.pdf`
@@ -16,6 +14,15 @@ It supports both **PDF** and **TXT** inputs, chunks the text, and outputs cleane
   - `mcqs_output.csv`
   - `mcqs_output.jsonl`
   - `mcqs_review.html` (with item analysis).
+
+## Tech Stack
+- **LLM**: Google **Gemini 1.5** (Flash)
+- **Language**: Python 3.9+
+- **Libraries**:  
+  - `google-generativeai` (Gemini API)  
+  - `PyPDF2` (PDF text extraction)  
+  - `pandas` (analysis & manipulation)
+  - `Counter` (counting utilities)
 
 ---
 
